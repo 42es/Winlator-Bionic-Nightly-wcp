@@ -63,7 +63,7 @@ If Contents don't show up. Try turning phone to Landscape View
 ###  Wine Layers (Bionic)
 [**Download Assets**](https://github.com/Xnick417x/Winlator-Bionic-Nightly-wcp/releases/tag/Wine)
 
-### Wine Layers (GameNative) - Proton
+### Proton Layers (Bionic) 
 [**Download Assets**](https://github.com/Xnick417x/Winlator-Bionic-Nightly-wcp/releases/tag/GameNative)
 
 ###  Runtime Packages

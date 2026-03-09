@@ -39,7 +39,7 @@ jobs:
           download_latest "box64-nightly-"
           download_latest "bionic-box64-nightly-"
           download_latest "wowbox64-nightly-"
-
+        
       - name: Create Zip Bundle
         run: |
           DATE=$(date +'%Y-%m-%d')

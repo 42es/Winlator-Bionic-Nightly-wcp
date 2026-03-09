@@ -31,8 +31,6 @@ jobs:
           nightly_targets = [
               ("DXVK", "dxvk-nightly-"),
               ("DXVK", "dxvk-arm64ec-nightly-"),
-              ("DXVK", "dxvk-nvapi-nightly-"),
-              ("DXVK", "dxvk-nvapi-arm64ec-nightly-"),
               ("VKD3D", "vk3dk-nightly-"),
               ("VKD3D", "vk3dk-arm64ec-nightly-"),
               ("FEXCore", "fex-nightly-"),

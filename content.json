@@ -223,9 +223,9 @@
   },
   {
     "type": "Proton",
-    "verName": "Proton-bleeding-edge-arm64ec-61cbb05",
+    "verName": "Proton-BE-arm64ec-83cf31f",
     "verCode": "0",
-    "remoteUrl": "https://github.com/Xnick417x/Winlator-Bionic-Nightly-wcp/releases/download/GameNative/Proton-bleeding-edge-arm64ec-61cbb05.wcp"
+    "remoteUrl": "https://github.com/Xnick417x/Winlator-Bionic-Nightly-wcp/releases/download/GameNative/Proton-BE-arm64ec-83cf31f.wcp"
   },
   {
     "type": "Proton",

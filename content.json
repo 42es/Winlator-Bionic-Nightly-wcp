@@ -61,6 +61,12 @@
   },
   {
     "type": "DXVK",
+    "verName": "Dxvk-2.7.1-gplasync",
+    "verCode": "0",
+    "remoteUrl": "https://github.com/Xnick417x/Winlator-Bionic-Nightly-wcp/releases/download/Stable-Dxvk/Dxvk-2.7.1-gplasync.wcp"
+  },
+  {
+    "type": "DXVK",
     "verName": "2.7.1-gplasync-3730b707",
     "verCode": "0",
     "remoteUrl": "https://github.com/Xnick417x/Winlator-Bionic-Nightly-wcp/releases/download/dxvk-nightly-3730b707/2.7.1-gplasync-3730b707.wcp"
@@ -79,9 +85,9 @@
   },
   {
     "type": "DXVK",
-    "verName": "Dxvk-2.7.1-gplasync-1",
+    "verName": "Dxvk-2.6-2-gplasync",
     "verCode": "0",
-    "remoteUrl": "https://github.com/Xnick417x/Winlator-Bionic-Nightly-wcp/releases/download/Stable-Dxvk/Dxvk-2.7.1-gplasync-1.wcp"
+    "remoteUrl": "https://github.com/Xnick417x/Winlator-Bionic-Nightly-wcp/releases/download/Stable-Dxvk/Dxvk-2.6-2-gplasync.wcp"
   },
   {
     "type": "DXVK",
@@ -91,21 +97,15 @@
   },
   {
     "type": "DXVK",
-    "verName": "Dxvk-2.6-2-gplasync-1",
-    "verCode": "0",
-    "remoteUrl": "https://github.com/Xnick417x/Winlator-Bionic-Nightly-wcp/releases/download/Stable-Dxvk/Dxvk-2.6-2-gplasync-1.wcp"
-  },
-  {
-    "type": "DXVK",
     "verName": "Dxvk-2.5.3-arm64ec-gplasync",
     "verCode": "0",
     "remoteUrl": "https://github.com/Xnick417x/Winlator-Bionic-Nightly-wcp/releases/download/Stable-Arm64ec-Dxvk/Dxvk-2.5.3-arm64ec-gplasync.wcp"
   },
   {
     "type": "DXVK",
-    "verName": "Dxvk-2.5.3-1-gplasync-1",
+    "verName": "Dxvk-2.5.3-1-gplasync",
     "verCode": "0",
-    "remoteUrl": "https://github.com/Xnick417x/Winlator-Bionic-Nightly-wcp/releases/download/Stable-Dxvk/Dxvk-2.5.3-1-gplasync-1.wcp"
+    "remoteUrl": "https://github.com/Xnick417x/Winlator-Bionic-Nightly-wcp/releases/download/Stable-Dxvk/Dxvk-2.5.3-1-gplasync.wcp"
   },
   {
     "type": "DXVK",
@@ -121,15 +121,15 @@
   },
   {
     "type": "DXVK",
-    "verName": "Dxvk-2.3.1-arm64ec-gplasync",
+    "verName": "Dxvk-2.3.1-gplasync",
     "verCode": "0",
-    "remoteUrl": "https://github.com/Xnick417x/Winlator-Bionic-Nightly-wcp/releases/download/Stable-Arm64ec-Dxvk/Dxvk-2.3.1-arm64ec-gplasync.wcp"
+    "remoteUrl": "https://github.com/Xnick417x/Winlator-Bionic-Nightly-wcp/releases/download/Stable-Dxvk/Dxvk-2.3.1-gplasync.wcp"
   },
   {
     "type": "DXVK",
-    "verName": "Dxvk-2.3.1-gplasync-1",
+    "verName": "Dxvk-2.3.1-arm64ec-gplasync",
     "verCode": "0",
-    "remoteUrl": "https://github.com/Xnick417x/Winlator-Bionic-Nightly-wcp/releases/download/Stable-Dxvk/Dxvk-2.3.1-gplasync-1.wcp"
+    "remoteUrl": "https://github.com/Xnick417x/Winlator-Bionic-Nightly-wcp/releases/download/Stable-Arm64ec-Dxvk/Dxvk-2.3.1-arm64ec-gplasync.wcp"
   },
   {
     "type": "DXVK",

@@ -44,7 +44,6 @@ jobs:
 
       - name: Install Dependencies
         if: env.SHOULD_BUILD == 'true'
-        
         run: |
           sudo apt-get update
           sudo apt-get install -y git cmake make python3 p7zip-full wget tar file ccache
@@ -199,8 +198,7 @@ jobs:
           until [ "$n" -ge 5 ]
           do
              git pull origin $BRANCH_NAME --rebase
-             sed -i "/\*\*Box64\*\* (Standard)/ s|\[\*\*Download Latest\*\*\]([^)]*)|[**Download Latest**]($DOWNLOAD_URL)|"
-             README.md
+             sed -i "/\*\*Box64\*\* (Standard)/ s|\[\*\*Download Latest\*\*\]([^)]*)|[**Download Latest**]($DOWNLOAD_URL)|" README.md
              git add README.md
              git commit -m "Update dashboard for Box64 ${{ env.COMMIT_HASH }} [skip ci]" ||
              echo "Nothing to commit"
@@ -406,8 +404,7 @@ jobs:
           until [ "$n" -ge 5 ]
           do
              git pull origin $BRANCH_NAME --rebase
-             sed -i "/\*\*WOWBox64\*\*/ s|\[\*\*Download Latest\*\*\]([^)]*)|[**Download Latest**]($DOWNLOAD_URL)|"
-             README.md
+             sed -i "/\*\*WOWBox64\*\*/ s|\[\*\*Download Latest\*\*\]([^)]*)|[**Download Latest**]($DOWNLOAD_URL)|" README.md
              git add README.md
              git commit -m "Update dashboard for WOWBox64 ${{ env.COMMIT_HASH }} [skip ci]" ||
              echo "Nothing to commit"

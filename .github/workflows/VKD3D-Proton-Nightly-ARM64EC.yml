@@ -165,7 +165,7 @@ jobs:
             "type": "VKD3D-Proton",
             "versionName": "${{ env.VERSION_NAME }}",
             "versionCode": 0,
-            "description": "Vkd3d-Proton-Nightly-${{ env.COMMIT_HASH }}",
+            "description": "Vkd3d-Proton-Nightly-${{ env.COMMIT_HASH }}-x86_64",
             "files": [
               {
                 "source": "system32/d3d12.dll",
@@ -187,7 +187,7 @@ jobs:
           }
           EOF
           cd final_package
-          tar -cJf ../Vkd3d-Proton-Nightly-${{ env.VERSION_NAME }}.wcp *
+          tar -cJf ../Vkd3d-Proton-Nightly-${{ env.VERSION_NAME }}-x86_64.wcp *
 
       - name: Upload Artifact (Standard)
         if: env.SHOULD_BUILD == 'true'
@@ -200,9 +200,9 @@ jobs:
         if: env.SHOULD_BUILD == 'true'
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: vkd3d-Proton-Nightly-${{ env.COMMIT_HASH }}
+          tag_name: vkd3d-Proton-Nightly-${{ env.COMMIT_HASH }}-86_64
           files: '*.wcp'
-          name: "Vk3dk Nightly ${{ env.COMMIT_HASH }}"
+          name: "Vkd3d-Proton-Nightly-${{ env.COMMIT_HASH }}-86_64"
           body: |
             Automated nightly build of Vkd3d.
             Commit: https://github.com/HansKristian-Work/vkd3d-proton/commit/${{ env.COMMIT_HASH }}
@@ -420,9 +420,9 @@ jobs:
           cat <<EOF > final_package/profile.json
           {
             "type": "VKD3D-Proton",
-            "versionName": "${{ env.VERSION_NAME }}",
+            "versionName": "${{ env.VERSION_NAME }}-arm64ec",
             "versionCode": 0,
-            "description": "Vkd3d-Proton-Nightly${{ env.COMMIT_HASH }}-arm64ec",
+            "description": "Vkd3d-Proton-Nightly-${{ env.COMMIT_HASH }}-arm64ec",
             "files": [
               {
                 "source": "system32/d3d12.dll",
@@ -447,7 +447,7 @@ jobs:
           tar -cf ../archive.tar .
           cd ..
           xz -9 archive.tar
-          mv archive.tar.xz Vkd3d-${{ env.VERSION_NAME }}.wcp
+          mv archive.tar.xz Vkd3d-Proton-Nightly-${{ env.VERSION_NAME }}-arm64ec.wcp
 
       - name: Upload Artifact (ARM64EC)
         if: env.SHOULD_BUILD == 'true'
@@ -462,7 +462,7 @@ jobs:
         with:
           tag_name: Vkd3d-Proton-Nightly-${{ env.COMMIT_HASH }}-arm64ec
           files: '*.wcp'
-          name: "Vkd3d arm64ec Nightly ${{ env.COMMIT_HASH }}"
+          name: "Vkd3d-Proton-Nightly-${{ env.COMMIT_HASH }}-arm64ec"
           body: |
             Automated nightly build of Vkd3d (arm64ec).
             Commit: https://github.com/HansKristian-Work/vkd3d-proton/commit/${{ env.COMMIT_HASH }}

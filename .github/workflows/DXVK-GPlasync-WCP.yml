@@ -2,7 +2,7 @@ name: Build DXVK Combined
 
 on:
   schedule:
-    - cron: '14 3 * * *'
+    - cron: '15 3 15 * *'
   workflow_dispatch:
 
 permissions:
